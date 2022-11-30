@@ -40,6 +40,11 @@
           }
         }
       } ],
+      "service": {
+    "profile": "http://iiif.io/api/search/0/search",
+    "@id": "https://demos-dev.biblissima.fr/simpleAnnotationStore/search-api/zs860hs4144/search",
+    "@context": "http://iiif.io/api/search/0/context.json"
+},
       "related" : {
         "@id" : "https://e-codices.ch/metadata/iiif/ubb-A-X-0132/manifest.json",
         "label" : "Basel, Universitätsbibliothek, A X 132",
