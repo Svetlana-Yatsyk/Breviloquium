@@ -1,0 +1,13 @@
+{
+  "id" : "https://Svetlana-Yatsyk.github.io/Breviloquium/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in Svetlana-Yatsyk/Breviloquium project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Svetlana-Yatsyk.github.io/Breviloquium/manifests/manifest_breviloquium.json",
+    "label" : "Breviloquium de virtutibus"
+  } ]
+}
