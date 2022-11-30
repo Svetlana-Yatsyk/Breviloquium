@@ -1,0 +1,111 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Svetlana-Yatsyk.github.io/Breviloquium/manifests/manifest_breviloquium.json",
+  "@type" : "sc:Manifest",
+  "label" : "Breviloquium de virtutibus",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Incipits of different manuscripts of \"Breviloquium de virtutibus\".",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "sequences" : [ {
+    "@id" : "http://ccb0ab77-5da8-4f2d-87ef-1323b2e2b5ee",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "https://e-codices.ch/metadata/iiif/ubb-A-X-0132/canvas/ubb-A-X-0132_0083r.json",
+      "@type" : "sc:Canvas",
+      "label" : "83r",
+      "height" : 5115,
+      "width" : 3613,
+      "images" : [ {
+        "@id" : "https://e-codices.ch/metadata/iiif/ubb-A-X-0132/annotation/ubb-A-X-0132_0083r.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://e-codices.ch/metadata/iiif/ubb-A-X-0132/canvas/ubb-A-X-0132_0083r.json",
+        "resource" : {
+          "@id" : "https://e-codices.ch/loris/ubb/ubb-A-X-0132/ubb-A-X-0132_0083r.jp2/full/full/0/default/jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 5115,
+          "width" : 3613,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://e-codices.ch/loris/ubb/ubb-A-X-0132/ubb-A-X-0132_0083r.jp2",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        }
+      } ],
+      "related" : {
+        "@id" : "https://e-codices.ch/metadata/iiif/ubb-A-X-0132/manifest.json",
+        "label" : "Basel, Universitätsbibliothek, A X 132",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9078091j/canvas/f2",
+      "label" : "NP",
+      "height" : 3779,
+      "width" : 5553,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9078091j/canvas/f2",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9078091j/f2"
+          },
+          "height" : 3779,
+          "width" : 5553,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9078091j/f2/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b9078091j/f2.thumbnail"
+      },
+      "@type" : "sc:Canvas",
+      "related" : {
+        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9078091j/manifest.json",
+        "label" : "BnF. Département des Manuscrits. Latin 13964",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://e-codices.ch/metadata/iiif/mvs-S-0096/canvas/mvs-S-0096_182r.json",
+      "@type" : "sc:Canvas",
+      "label" : "182r",
+      "height" : 8172,
+      "width" : 6002,
+      "images" : [ {
+        "@id" : "https://e-codices.ch/metadata/iiif/mvs-S-0096/annotation/mvs-S-0096_182r.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://e-codices.ch/metadata/iiif/mvs-S-0096/canvas/mvs-S-0096_182r.json",
+        "resource" : {
+          "@id" : "https://e-codices.ch/loris/mvs/mvs-S-0096/mvs-S-0096_182r.jp2/full/full/0/default/jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 8172,
+          "width" : 6002,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://e-codices.ch/loris/mvs/mvs-S-0096/mvs-S-0096_182r.jp2",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        }
+      } ],
+      "related" : {
+        "@id" : "https://e-codices.ch/metadata/iiif/mvs-S-0096/manifest.json",
+        "label" : "Sion/Sitten, Médiathèque Valais, S 96",
+        "format" : ""
+      }
+    } ]
+  } ],
+  "structures" : [ ]
+}
