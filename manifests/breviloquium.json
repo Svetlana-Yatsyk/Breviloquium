@@ -2,6 +2,12 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://Svetlana-Yatsyk.github.io/Breviloquium/manifests/breviloquium.json",
   "@type" : "sc:Manifest",
+  
+      "service": {
+    "profile": "http://iiif.io/api/search/0/search",
+    "@id": "https://demos-dev.biblissima.fr/simpleAnnotationStore/search-api/zs860hs4144/search",
+    "@context": "http://iiif.io/api/search/0/context.json"
+},
   "label" : "Breviloquium de virtutibus",
   "metadata" : [ ],
   "description" : [ {
@@ -40,11 +46,6 @@
           }
         }
       } ],
-      "service": {
-    "profile": "http://iiif.io/api/search/0/search",
-    "@id": "https://demos-dev.biblissima.fr/simpleAnnotationStore/search-api/zs860hs4144/search",
-    "@context": "http://iiif.io/api/search/0/context.json"
-},
       "related" : {
         "@id" : "https://e-codices.ch/metadata/iiif/ubb-A-X-0132/manifest.json",
         "label" : "Basel, Universitätsbibliothek, A X 132",
