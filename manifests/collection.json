@@ -7,10 +7,6 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "@type" : "sc:Manifest",
-    "@id" : "https://Svetlana-Yatsyk.github.io/Breviloquium/manifests/manifest_breviloquium.json",
-    "label" : "Breviloquium de virtutibus"
-  }, {
-    "@type" : "sc:Manifest",
     "@id" : "https://Svetlana-Yatsyk.github.io/Breviloquium/manifests/breviloquium.json",
     "label" : "Breviloquium de virtutibus"
   } ]
