@@ -2,8 +2,7 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://Svetlana-Yatsyk.github.io/Breviloquium/manifests/breviloquium.json",
   "@type" : "sc:Manifest",
-  
-      "service": {
+  "service": {
     "profile": "http://iiif.io/api/search/0/search",
     "@id": "https://demos-dev.biblissima.fr/simpleAnnotationStore/search-api/zs860hs4144/search",
     "@context": "http://iiif.io/api/search/0/context.json"
